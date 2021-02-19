@@ -2,7 +2,7 @@ ARG RELEASE=buster
 FROM debian:${RELEASE}
 
 ARG RELEASE
-ARG VERSION=5.0.2.0
+ARG VERSION=5.1.0.0
 
 ADD https://github.com/gridcoin-community/Gridcoin-Research/releases/download/${VERSION}/gridcoinresearchd_${VERSION}_${RELEASE}-1_amd64.deb .
 ADD https://github.com/gridcoin-community/Gridcoin-Research/releases/download/${VERSION}/gridcoinresearchd_${VERSION}_${RELEASE}-1_amd64.deb.SHA256 .
